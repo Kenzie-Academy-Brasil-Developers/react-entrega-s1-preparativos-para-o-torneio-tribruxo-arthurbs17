@@ -27,7 +27,7 @@ const WizardsSelected = ({ list, choiceAgain }) => {
 
   return (
     <div className="container">
-      <h1>Esses são seus campeões</h1>
+      <h1>Esses são seus campeões:</h1>
       <ul>
         {pickedWizards.map((char, index) => (
           <CharCard list={char} key={index} />

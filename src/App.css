@@ -18,11 +18,10 @@ li {
   font-size: 100%;
   font-family: "MedievalSharp", cursive;
   vertical-align: baseline;
+  background-color: #0b0b0c;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   font-size: calc(10px + 2vmin);
   color: white;
 }
