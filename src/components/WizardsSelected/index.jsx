@@ -1,5 +1,6 @@
 import { useState } from "react";
 import CharCard from "../CharCard";
+import "./index.css";
 
 const WizardsSelected = ({ list, choiceAgain }) => {
   const [number, setNumber] = useState(Math.floor(Math.random() * 11));
@@ -25,7 +26,7 @@ const WizardsSelected = ({ list, choiceAgain }) => {
   }
 
   return (
-    <div>
+    <div className="container">
       <h1>Esses são seus campeões</h1>
       <ul>
         {pickedWizards.map((char, index) => (
