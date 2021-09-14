@@ -40,7 +40,7 @@ button:hover {
     flex-direction: row;
   }
   .container li {
-    margin: 4px;
+    margin: 10px;
   }
   .container button {
     margin-top: 20px;
